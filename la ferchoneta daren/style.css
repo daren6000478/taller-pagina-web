@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu{
+    border: solid red 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body{
+    padding-inline: 5.5em;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+#menu ul{
+    width: 40%;
+    border: solid red 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+}
+button{
+    border: none;
+    color: white;
+    width: 40%;
+    border-radius: 2px;
+    height: 20%;
+    font-size: 1em;
+
+}
+.btn{
+    background-color: #664EFC;
+    width: 100%;
+    padding: 1em;
+
+}
+#banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ h1{
+    font-size: 5rem;
+
+}
+h2{
+    font-size: 1.618rem;
+}
+p{
+    font-size: 1.1rem;
+    color: gray;
+}
+.izquierda{
+    flex: 40%;
+    border: solid red 2px;
+    width: 100%;
+}
+#banner .izquierda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.izquierda p{
+    width: 60%;
+    line-height: 1.5;
+}
+.izquierda .btn{
+    width: 22%;
+}
+.izquierda strong{
+    color: #664EFC;
+}
+.img1{
+    width: 80%;
+}
+.img2{
+    width: 50%;
+}
+.derecha{
+    flex: 60%;
+    width: 100%;
+    border: solid red 2px;
+}
+img{
+    width: 20%;
+    
+} 
+.izquierda button strong{
+    color: aliceblue;
+}
+.izquierda btn strong{
+    color: aliceblue;
+}
+#seccion1{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    
+    border: solid green 2px;
+}
+.img4{
+    width: 50%;
+    justify-content: center;
+}
+#seccion2{
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    border: solid green 2px;
+}
